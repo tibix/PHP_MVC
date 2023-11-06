@@ -11,11 +11,11 @@ Trait Model
 {
 	use Database;
 
-	public $limit 		= 10;
-	public $offset 		= 0;
-	public $order_type 	= "desc";
-	public $order_column = "id";
-	public $errors 		= [];
+	public $limit 			= 10;
+	public $offset 			= 0;
+	public $order_type 		= "desc";
+	public $order_column 	= "id";
+	public $errors 			= [];
 
 	public function findAll()
 	{
